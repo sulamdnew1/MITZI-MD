@@ -1,0 +1,27 @@
+{
+  "name": "DRK-MD",
+  "description": "DRK-MD Whatsapp Multidevice Bot",
+  "logo": "https://i.ibb.co/ynpGMvp8/1160.jpg",
+  "keywords": ["bot / Sula"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },
+
+    
+    "MONGODB": {
+      "description": "Put the mongodb url here.",
+      "required": false
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
