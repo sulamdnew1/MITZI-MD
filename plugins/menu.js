@@ -17,23 +17,25 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
     try {
         const selectionMessage = `
 ╭━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
-      *Hi 😈*  *${pushname}*
+    *Hi...🤟*  *${pushname}*
       
-    *Command List*
+    *⏳ Uptime*: ${runtime(process.uptime())}
+  
+    *👨‍💻 Owner: Matheesha*
 ╰━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
 
-  *╭────────────●●►*
-  *│1. DOWNLOAD MENU*
-  *│2. SEARCH MENU* 
-  *│3. AI MENU*
-  *│4. OWNER MENU*
-  *│5. GROUP MENU*
-  *│6. INFO MENU*
-  *│7. CONVERTER MENU*
-  *│8. RANDOM MENU*
-  *│9. WALLPAPERS MENU*
-  *│10. OTHER MENU*
-  *╰────────────●●►*
+╭───────────────✦
+│ ① 🛠️ *Owner Menu*
+│ ② ⬇️ *Download Menu*
+│ ③ 🎛️ *Converter Menu*
+│ ④ 👥 *Group Menu*
+│ ⑤ 🤖 *AI Menu*
+│ ⑥ 🔍 *Search Menu*
+│ ⑦ 🎉 *Fun Menu*
+│ ⑧ 🎲 *Random Menu*
+│ ⑨ 🖼️ *Wallpapers Menu*
+│ ⑩ 🌐 *Other Menu*
+╰───────────────✦
 
 > 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐌𝐈𝐓𝐙𝐈-𝐌𝐃
 `;
