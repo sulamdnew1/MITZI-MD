@@ -46,7 +46,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 🎶 *Title:* ${data.title} 🎧
 
 🌐 *Duration:* ${data.timestamp}
- 
 📩 *Uploaded On:* ${data.ago}
 
 > MITZI MD
@@ -78,7 +77,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             audio: { url: downloadLink },
             mimetype: "audio/mpeg",
             ptt: true
-            }
         }, { quoted: mek });
 
     } catch (e) {
