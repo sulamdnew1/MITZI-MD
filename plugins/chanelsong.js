@@ -1,4 +1,4 @@
-const { cmd, commands } = require('../lib/command');
+const { cmd, commands } = require('../command');
 const yts = require('yt-search');
 const ddownr = require('denethdev-ytmp3');
 
